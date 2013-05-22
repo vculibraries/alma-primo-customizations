@@ -1,0 +1,15 @@
+<!--
+	Alma: add an extra tab to services page menu
+	ex: "Report problems" tab on http://vcu-alma-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/openurl?dscnt=1&id=pmid%3A23296443&sid=Entrez%3APubMed&isSerivcesPage=true&url_ctx_fmt=null&dstmp=1368806607612&vid=vcu_services_page&institution=VCU&fromLogin=true
+
+	insert this code in the header tile of the services page view
+
+	Erin White erwhite@vcu.edu
+
+-->
+<script type="text/javascript">
+$(document).ready(function(){
+	var helpTab='<li class="EXLResultTab"><a href="https://www.library.vcu.edu/phpapps/forms/ejp'+location.search+'">Report problems</a></li>';
+	$('#exlidResult0-TabsList').append(helpTab);
+});
+</script>

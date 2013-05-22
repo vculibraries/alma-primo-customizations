@@ -1,0 +1,50 @@
+/* 
+	Alma services page customizations
+	link to this css file from your services_page view
+	ex: http://vcu-alma-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/openurl?dscnt=1&id=pmid%3A23296443&sid=Entrez%3APubMed&isSerivcesPage=true&url_ctx_fmt=null&dstmp=1368806607612&vid=vcu_services_page&institution=VCU&fromLogin=true
+
+	Erin White erwhite@vcu.edu 2012-10
+
+	add "get it @ vcu" branding bar at top of services page
+	make images larger on responsive design
+*/
+
+
+/* add space at the top for the banner */
+body {
+        margin:33px 0 0 0;
+        padding: 0 !important;
+}
+
+/* zero out container divs to let banner be free on desktop and responsive */
+#exlidHeaderContainer {
+        width: auto !important;
+}
+
+#exlidHeaderTile {
+        padding: 0 !important;
+}
+
+/* don't responsify the images down too much */
+#exlidHeaderTile img {
+        min-width: 200px !important;
+}
+
+/* make the banner */
+div.top-banner {
+        width: 100%;
+        position: absolute;
+        display:block;
+        margin: -33px 0 0 0;
+        height: 27px;
+        padding: 1px 0;
+        background: #FFCC00;
+        font-weight: bold;
+        font-size: 14px;
+        border-bottom: 1px solid #ddd;
+}
+div.top-banner img {
+        display: block;
+        width: 400px !important;
+        margin: 0 auto;
+}

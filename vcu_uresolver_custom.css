@@ -1,0 +1,132 @@
+/* 
+	Alma u-resolver menu customizations
+	ask Ex Libris to import this file into mashup.css
+	i.e. @import url("http://url-to-your-css-file.com/uresolver.css");
+
+	Erin White erwhite@vcu.edu 2012-10
+
+*/ 
+
+
+/*
+	"view online" tab contents
+*/
+
+/* clear padding on parent containers and bump up the font size of the links to resources */
+form[name=uResolverViewItForm], 
+form[name=uResolverViewItForm] div.tabContent {
+	padding: 0 !important; 
+	margin: 0 !important;
+	font-size: 13px !important;
+}
+
+/* bump up margins for lists, make non-important (availability) text lighter */
+form[name=uResolverViewItForm] ul,
+form[name=uResolverViewItForm] li {
+	margin: auto 12px;
+	color: #666;
+}
+
+/* hide "full text available at" - redundant */
+form[name=uResolverViewItForm] .internalTitle {
+	display: none;
+}
+
+/* make the first link bigger - disabled bc first link is not necessarily best link
+form[name=uResolverViewItForm] ul li:first-child a, 
+form[name=uResolverViewItForm] ul li:first-child a:link {
+	font-size: 1.2em;
+}*/
+
+/* make all the links to resources juicier */
+form[name=uResolverViewItForm] ul li a, 
+form[name=uResolverViewItForm] ul li a:link {
+	margin: 12px 0 0 0;
+	padding: 3px 0 !important;
+	display: block;
+	font-weight: bold;
+}
+
+
+/* 
+	"Find or request" tab - local holdings
+*/
+
+/* make holdings info more visible/legible */
+ul.holdingInfo { background: #ffffcc; }
+
+ul.holdingInfo li.bold { 
+	font-weight: bold !important;
+	width: auto !important; 
+	margin:0 0.3em !important;
+}
+
+/* add colon after availability */
+ul.holdingInfo li.bold::after { content: ":  "; }
+
+/* nix the horizontal scrollbar */
+.showMore { 
+	border-left: 0 !important; 
+	border-right: 0 !important;
+}
+
+.showMore li { 
+	width: auto !important; 
+	padding: 0 0.3em !important; 
+}
+
+/* embolden request options */
+.iframeHeader .iframeHeaderContent em { font-weight: bold !important; }
+
+/* hide the "barcode" column */
+.itemsList #TABLE_DATA_item_list th:first-of-type,
+.itemsList #TABLE_DATA_item_list td:first-of-type { display: none !important; }
+
+/* buttonify request options for journals and ILLiad request  */
+.submitAsLink,
+.typeC .formDiv input.submitAsLink,
+#TABLE_DATA_item_list td:last-of-type a {
+	display: inline-block !important;	
+	background-color: #e6e6e6 !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #e6e6e6), color-stop(100%, #d0d0d0)) !important;
+	background-image: -webkit-linear-gradient(top, #e6e6e6, #d0d0d0) !important;
+	background-image: -moz-linear-gradient(top, #e6e6e6, #d0d0d0) !important;
+	background-image: -ms-linear-gradient(top, #e6e6e6, #d0d0d0) !important;
+	background-image: -o-linear-gradient(top, #e6e6e6, #d0d0d0) !important;
+	background-image: linear-gradient(top, #e6e6e6, #d0d0d0) !important;
+	border-top: 1px solid #a9a9a9 !important;
+	border-left: 1px solid #a9a9a9 !important;
+	border-bottom: 1px solid #a9a9a9 !important;
+	border-right: 1px solid #a9a9a9 !important;
+	text-shadow: #fff 1px 1px 1px !important;
+	-webkit-border-radius: 6px !important;
+	-moz-border-radius: 6px !important;
+	border-radius: 6px !important;
+	-webkit-box-shadow: inset 0 1px 0 0 white !important;
+	-moz-box-shadow: inset 0 1px 0 0 white !important;
+	box-shadow: inset 0 1px 0 0 white !important;
+	color: #545454 !important;
+	line-height: 1 !important;
+	padding: 6px 9px !important;
+	height: auto !important;
+	text-align: center !important;
+	width: auto !important;
+	font-size: 1em !important;
+	margin: 3px 0 !important;
+}
+/*button hover */
+#TABLE_DATA_item_list td:last-of-type a:hover {
+	text-decoration: none !important !important;
+	background-color: #febe10 !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d0d0d0), color-stop(100%, #e6e6e6)) !important;
+	background-image: -webkit-linear-gradient(top, #d0d0d0, #e6e6e6) !important;
+	background-image: -moz-linear-gradient(top, #d0d0d0, #e6e6e6) !important;
+	background-image: -ms-linear-gradient(top, #d0d0d0, #e6e6e6) !important;
+	background-image: -o-linear-gradient(top, #d0d0d0, #e6e6e6) !important;
+	background-image: linear-gradient(top, #d0d0d0, #e6e6e6) !important;
+	-webkit-box-shadow: inset 0 1px 0 0 #f2f2f2 !important;
+	-moz-box-shadow: inset 0 1px 0 0 #f2f2f2 !important;
+	box-shadow: inset 0 1px 0 0 #f2f2f2 !important;
+	color: #6d520b !important;
+	cursor: pointer !important; 
+}
