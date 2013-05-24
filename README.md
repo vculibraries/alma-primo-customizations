@@ -16,7 +16,10 @@ Each file exists independently and doesn't require the other files.
 ## See also
 * [Primo topbar](https://gist.github.com/erinrwhite/3701830) - HTML and CSS to add a top banner to Primo screens
 	* [Demo](http://www.people.vcu.edu/~erwhite/code/primo-topbar.html)
+* [Query string redirector](https://gist.github.com/erinrwhite/5406567) - Quick PHP script to take a GET request and forward it to another URL. Helpful for uresolver migration.
 
+## More reading
+* [Jimmy Ghaphery's presentation at ELUNA 2013](http://www.people.vcu.edu/~jghapher/eluna2013/eluna_2013_openurl.pdf) details some of the customizations VCU made to Alma.
 
 ## Author
 Written and maintained by [Erin White](mailto:erwhite@vcu.edu), VCU 
