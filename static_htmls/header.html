@@ -1,0 +1,19 @@
+<!--
+NB: When translating a static html page that includes images, the link of the image must be replaced as follows:
+The existing link: "../images/imageName.gif" must be changed into: "../locale/specifcLocaleCode/images/imageName.gif" where "specifcLocaleCode" represents the relevant locale of the language (e.g en_US for English USA, zh_CH for Chinese).
+-->
+<a href="http://www.vcu.edu/" title="VCU home page" id="vcu-link"><img src="../customized/images/vcu_logo.png" alt="Virginia Commonwealth University" /></a> 
+<a href="http://www.library.vcu.edu/" title="Library home page"><img src="../customized/images/vcul.png" alt="VCU Libraries logo"/></a>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	// add reserves instructions
+	var reservesText='<a href="http://www.library.vcu.edu/reserves/" style="display: block; padding:6px;">Course reserves info &raquo;</a></p>';
+	$('#search_field.EXLSearchFieldMaximized').attr('placeholder','search for course name/number or item title');
+	$('.EXLSearchFieldRibbon.EXLSearchFieldRibbonFormSearchForMaximized').append(reservesText);
+
+	// add citation linker instructions
+	var citationText='<p style="clear:both;padding:6px 12px;">Fill in as much of the citation information as you can to connect directly to a specific article, journal, or book.</p>';
+	$('div.EXLCitationLinkerHeader').append(citationText);
+});
+</script>
