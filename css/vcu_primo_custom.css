@@ -121,3 +121,8 @@ li#exlidSignOut a[href^="logout"] { display: none; }*/
 	padding: 0 12px;
 	color: #444;
 }
+
+/* hide "my databases" tab in my account */
+#exlidMyDatabasesTab {
+	display: none;
+}
