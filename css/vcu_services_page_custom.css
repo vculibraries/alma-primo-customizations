@@ -48,3 +48,8 @@ div.top-banner img {
         width: 400px !important;
         margin: 0 auto;
 }
+
+/* hide "find databases" link on vcu_services_page */
+.EXLMainMenuITEMFindInDB {
+	display: none;
+}
