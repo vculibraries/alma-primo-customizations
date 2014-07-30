@@ -1,0 +1,143 @@
+/*	
+	VCU LIBRARIES primo customizations for handheld
+	http://search.library.vcu.edu
+	atinker@vcu.edu
+	2014
+*/
+body { max-width: 500px; }
+
+	#EXLFacetsMobile, .EXLDateRangeText {display:none;}
+	#exlidSearchRibbon fieldset {width: 100% !important;}
+
+	.EXLFacetTile {
+		background: #FFFFFF;
+		display: block;
+		height: 300%;
+		left: -500px;
+		padding: 0 10px 0 10px;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 9999;
+	}
+	#exlidAdvancedSearchRibbon .EXLSearchFieldRibbonFormFieldsGroup2 { padding-top: 0 !important;}
+	#exlidAdvancedSearchRibbon .EXLSearchFieldRibbonFormFieldsGroup2 .EXLAdvancedSearchFormRow {width: 100% !important;}
+
+	#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormLinks {margin-top: 0;}
+
+	.EXLBrowseFieldRibbon .EXLSearchFieldRibbonFormSearchFor {
+		width: auto !important;
+	}
+
+	#exlidHeaderTile { 
+		width: 100%;
+		text-align: center; 
+	}
+
+	#exlidUserAreaTile ul { 
+		margin-bottom: 20px;
+		width: 100%;
+	}
+
+	.EXLResultsContainer {
+		overflow: visible;
+	}
+
+	#exlidSearchTile {padding: 0 10px;}
+
+	#exlidSearchRibbon {
+		padding: .5em 0.5em .5em 0.5em;
+		width: auto;
+	}
+
+	#exlidSearchRibbon div.EXLSearchFieldRibbon {width: 100%;}
+
+	#exlidSearchRibbon input {
+		height: 30px;
+		padding-left: 5px;
+	}
+
+	.EXLResultsHeader {
+		padding: 15px 10px 0px 10px;
+		width: auto;
+	}
+
+	.EXLSearchFieldRibbonFormSearchFor {
+		float:left;
+		padding: 0;
+	}
+
+	.EXLResultsSortBySelected, .EXLResultsSortByMenu {display: table;}
+
+	.EXLResultsHeader div.EXLResultsNumbers { 
+		clear: left;
+		height: auto !important;
+	}
+
+	.EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
+		clear: both;
+		float: none;
+		height: auto;
+		width: auto;
+	}
+
+	.EXLSearchFieldRibbonFormSubmitSearch { 
+		margin-top: 0;
+	}
+
+	.EXLRefinementRibbonWithExclude div.EXLRefinementsList {width: 100%;}
+	.EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy span.EXLResultsSortBySelected a { margin-left: 10px;}
+	.EXLResultsFooter { height: auto;}
+
+	#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2,
+	#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup1 {width: 100%;}
+
+	.EXLSearchFieldRibbonFormFields {width: 100% !important;}
+
+	.EXLResultsHeader div.EXLResultsNavigation { padding: 1em 0em 0em 0em;}
+
+	#exlidUserAreaTile {
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy ul { left: 5px; }
+
+	tr.EXLResult td {padding: 10px 10px 10px 0;}
+
+	a#openSidebar { 
+		display: block; 
+		float: left;
+		height: 20px;
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 23px;
+		margin: 10px 0 10px 15px;
+	}
+
+	 a#closeSidebar {
+	 	display: block;
+	 	height: 30px;
+	 	position: absolute;
+	 	right: 22px;
+	 	top: 5px;
+	 	width: 30px;
+	 }
+
+	 .folderName.EXLEShelfFolderContentsTable tbody tr td:first-child {display:none;}
+
+	 .folderName.EXLEShelfFolderContentsTable tbody tr td.ulTd {display: block;}
+
+	 .folder_details .ulTd { padding-left: 0;}
+	 .EXLMyAccountTabsRibbon {padding-left: 10px;}
+
+	 .EXLMyAccountMainContainer form input {width: auto;}
+
+	 span.EXLHiddenCue {display:none;}
+
+	 #exlidAdvancedSearchRibbon input[type="text"] {width: 89%;}
+
+	 #exlidAdvancedSearchRibbon select { width: 45%;}
+
+	 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 select { width: 92%;}
