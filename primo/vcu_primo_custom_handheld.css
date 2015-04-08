@@ -20,6 +20,14 @@ body { max-width: 500px; }
 		width: 100%;
 		z-index: 9999;
 	}
+
+	.EXLSortMobile select {
+		font-family: arial;
+		font-weight: bold;
+		color: rgb(19, 93, 155);
+		font-size: 13px;
+	}
+
 	#exlidAdvancedSearchRibbon .EXLSearchFieldRibbonFormFieldsGroup2 { padding-top: 0 !important;}
 	#exlidAdvancedSearchRibbon .EXLSearchFieldRibbonFormFieldsGroup2 .EXLAdvancedSearchFormRow {width: 100% !important;}
 
@@ -53,7 +61,7 @@ body { max-width: 500px; }
 	#exlidSearchRibbon div.EXLSearchFieldRibbon {width: 100%;}
 
 	#exlidSearchRibbon input {
-		height: 30px;
+		height: 35px;
 		padding-left: 5px;
 	}
 
@@ -67,7 +75,6 @@ body { max-width: 500px; }
 		padding: 0;
 	}
 
-	.EXLResultsSortBySelected, .EXLResultsSortByMenu {display: table;}
 
 	.EXLResultsHeader div.EXLResultsNumbers { 
 		clear: left;
@@ -82,8 +89,10 @@ body { max-width: 500px; }
 	}
 
 	.EXLSearchFieldRibbonFormSubmitSearch { 
-		margin-top: 0;
+		margin: 0 0 0 12px;
 	}
+
+	#exlidSearchRibbon input.submit { height: 35px; }
 
 	.EXLRefinementRibbonWithExclude div.EXLRefinementsList {width: 100%;}
 	.EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy span.EXLResultsSortBySelected a { margin-left: 10px;}
@@ -141,3 +150,36 @@ body { max-width: 500px; }
 	 #exlidAdvancedSearchRibbon select { width: 45%;}
 
 	 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 select { width: 92%;}
+
+	 .Location, .MyAccount_Loans_title { display: table-cell;}
+
+	 .EXLClearSimpleSearchBoxButtonClose {display: none;}
+
+	 /*---------------Extra Search Styles----------*/
+
+	.extra-results {
+		padding: 18px;
+		border: 1px solid #def1ff;
+		border-radius: 4px;
+		line-height: 22px;
+		background: #def1ff;
+	}
+
+	.extra-results p { 
+		margin: 10px 0 2px 0;
+		font-size: 12px;
+		font-weight: bold;
+	}
+
+	.extra-results p:first-of-type { 
+		margin-top: 0;
+	}
+
+	.extra-results p a {
+		font-size: 15px;
+		text-decoration: underline;
+	}
+
+	.extra-results span{
+		display:none;
+	}
