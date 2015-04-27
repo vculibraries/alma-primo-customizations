@@ -1,6 +1,6 @@
 # Adding/updating updating custom CSS/Javascript in Primo frontend and backoffice
 
-[Erin White](mailto:erwhite@vcu.edu) - Fall 2014
+Author: [Erin White](mailto:erwhite@vcu.edu)
 
 ## Initial setup of custom theme files
 
