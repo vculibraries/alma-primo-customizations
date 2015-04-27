@@ -16,12 +16,15 @@ A difficult thing done once:
   * Log in to the Primo backoffice
   * Advanced Configuration -> Mapping Tables -> CSS
   * Create a new CSS configuration with a descriptive name and a list of CSS files separated by semicolon. Use the Primo default CSS as the base. Note the directory structure for custom CSS files.
+  ![New CSS configuration](http://vculibraries.github.io/alma-primo-customizations/readme-images/image_1.png)
   * For handheld styles, create another new CSS for handheld. Use mobile.css for the base.
+  ![CSS configuration for mobile](http://vculibraries.github.io/alma-primo-customizations/readme-images/image_2.png)
   * Save.
 4. Apply CSS theme(s) to view
   * Primo backoffice -> Ongoing configuration -> Views
   * Choose the active view
   * Select the CSS configurations you just created:
+  ![Select proper CSS configuration](http://vculibraries.github.io/alma-primo-customizations/readme-images/image_3.png)  
   * Click through the view steps and deploy the view.
   * Verify that the updates are showing.
 
@@ -37,7 +40,7 @@ A difficult thing done once:
       cp search.css  search.css.bak
       cp search.js search.js.bak
   ```
-  * Copy over any changed files. There is probably a better way to do this, but I wget the newest files from web-prod. In most cases it will just be the two CSS files and maybe the JS:
+  * Copy over any changed files. There is probably a better way to do this, but I wget the newest files from our production web server. In most cases it will just be the two CSS files and maybe the JS:
   ```
       wget http://your-website/search.css
       wget http://your-website/search-handheld.css 
@@ -53,6 +56,7 @@ A difficult thing done once:
   * Primo backoffice -> Ongoing configuration -> Views
   * Choose the active view
   * Make sure the correct CSS configurations are selected:
+  ![Select CSS configurations](http://vculibraries.github.io/alma-primo-customizations/readme-images/image_4.png)
   * Click through the view steps and deploy the view.
 3. Verify the changes are showing on the public interface.
 
