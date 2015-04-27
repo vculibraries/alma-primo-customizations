@@ -15,7 +15,7 @@ A difficult thing done once:
 3. Add CSS files to CSS mapping table in Primo Backoffice
   * Log in to the Primo backoffice
   * Advanced Configuration -> Mapping Tables -> CSS
-  * Create a new CSS configuration with a descriptive name and a list of CSS files separated by semicolon. Use the Primo default CSS as the base. Note the directory structure for custom CSS files![image alt text](image_0.png)
+  * Create a new CSS configuration with a descriptive name and a list of CSS files separated by semicolon. Use the Primo default CSS as the base. Note the directory structure for custom CSS files.
   * For handheld styles, create another new CSS for handheld. Use mobile.css for the base.
   * Save.
 4. Apply CSS theme(s) to view
