@@ -56,7 +56,7 @@ A difficult thing done once:
   * Primo backoffice -> Ongoing configuration -> Views
   * Choose the active view
   * Make sure the correct CSS configurations are selected:
-  ![Select CSS configurations](http://vculibraries.github.io/alma-primo-customizations/readme-images/image_4.png)
+  ![Select CSS configurations](http://vculibraries.github.io/alma-primo-customizations/readme-images/image_3.png)
   * Click through the view steps and deploy the view.
 3. Verify the changes are showing on the public interface.
 
