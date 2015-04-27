@@ -32,23 +32,23 @@ A difficult thing done once:
   * `sudo su - primo`
   * `cd /your/path/to/libweb/customized`
   * [Optional] back up old JS/CSS files:
-```
-    cp search-handheld.css search-handheld.css.bak
-    cp search.css  search.css.bak
-    cp search.js search.js.bak
-```
+  ```
+      cp search-handheld.css search-handheld.css.bak
+      cp search.css  search.css.bak
+      cp search.js search.js.bak
+  ```
   * Copy over any changed files. There is probably a better way to do this, but I wget the newest files from web-prod. In most cases it will just be the two CSS files and maybe the JS:
-```
-    wget http://your-website/search.css
-    wget http://your-website/search-handheld.css 
-    wget http://your-website/search.js
-```
+  ```
+      wget http://your-website/search.css
+      wget http://your-website/search-handheld.css 
+      wget http://your-website/search.js
+  ```
   * The files will have a .1 on the end of the filename so need to be renamed:
-```
-mv search.css.1  search.css
-mv search-handheld.css.1 search-handheld.css
-mv search.js.1 search.js
-```
+  ```
+  mv search.css.1  search.css
+  mv search-handheld.css.1 search-handheld.css
+  mv search.js.1 search.js
+  ```
 2. Deploy CSS updates in the Primo backoffice:
   * Primo backoffice -> Ongoing configuration -> Views
   * Choose the active view
