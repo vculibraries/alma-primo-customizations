@@ -27,6 +27,13 @@ vcu_primo_custom_handheld.css - Desktop and responsive designs included in all v
 
 We've also documented [how to add and update custom CSS and Javascript](updating-themes.md) to Primo.
 
+### Sites using Primo customizations
+
+* [VCU Libraries](http://search.library.vcu.edu/)
+* [CUNY System](http://onesearch.cuny.edu/primo_library/libweb/action/search.do?vid=CUNY)
+* [Purdue Libraries](http://purdue-primo-prod.hosted.exlibrisgroup.com/)
+* If you're using these customizations, [let Erin White know](mailto:erwhite@vcu.edu) or submit a pull request to this readme.
+
 ### Primo customizations: see also
 * [Primo topbar](https://gist.github.com/erinrwhite/3701830) - HTML and CSS to add a top banner to Primo screens
 	* [Demo](http://www.people.vcu.edu/~erwhite/code/primo-topbar.html)
