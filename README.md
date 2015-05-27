@@ -31,7 +31,7 @@ We've also documented [how to add and update custom CSS and Javascript](updating
 
 * [VCU Libraries](http://search.library.vcu.edu/)
 * [CUNY System](http://onesearch.cuny.edu/primo_library/libweb/action/search.do?vid=CUNY)
-* [Purdue Libraries](http://purdue-primo-prod.hosted.exlibrisgroup.com/)
+* [Purdue Libraries](http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/search.do?vid=PURDUE)
 * If you're using these customizations, [let Erin White know](mailto:erwhite@vcu.edu) or submit a pull request to this readme.
 
 ### Primo customizations: see also
