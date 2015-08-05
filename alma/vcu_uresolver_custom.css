@@ -1,58 +1,56 @@
 /* 
 	Alma u-resolver menu customizations
-	ask Ex Libris to import this file into mashup.css
-	i.e. @import url("http://url-to-your-css-file.com/uresolver.css");
+	add this to the top of mashup.css
 
-	Erin White erwhite@vcu.edu 2012-10
+	Erin White erwhite@vcu.edu
+	last mod July 2015
 
 */ 
 
-
-/*
-	"view online" tab contents
+/*	
+	"view online" tab 
 */
 
-/* clear padding on parent containers and bump up the font size of the links to resources */
-form[name=uResolverViewItForm], 
-form[name=uResolverViewItForm] div.tabContent {
+/* clear padding on parent containers and bump up the font size */
+#uResolverViewItForm, 
+#uResolverViewItForm div.tabContent {
 	padding: 0 !important; 
 	margin: 0 !important;
 	font-size: 13px !important;
 }
 
-/* bump up margins for lists, make non-important (availability) text lighter */
-form[name=uResolverViewItForm] ul,
-form[name=uResolverViewItForm] li {
+/* hide h1's */
+#uResolverViewItForm h1 { 
+	display: none;;
+}
+
+/* bump up margins for lists, make non-important text lighter */
+#uResolverViewItForm ul,
+#uResolverViewItForm li {
 	margin: auto 12px;
 	color: #666;
 }
 
-/* hide "full text available at" - redundant */
-form[name=uResolverViewItForm] .internalTitle {
-	display: none;
+/* "full text available at" text */
+#uResolverViewItForm .internalTitle {
+	font-weight:bold;
 }
 
-/* make the first link bigger - disabled bc first link is not necessarily best link
-form[name=uResolverViewItForm] ul li:first-child a, 
-form[name=uResolverViewItForm] ul li:first-child a:link {
-	font-size: 1.2em;
-}*/
-
 /* make all the links to resources juicier */
-form[name=uResolverViewItForm] ul li a, 
-form[name=uResolverViewItForm] ul li a:link {
+#uResolverViewItForm ul li a, 
+#uResolverViewItForm ul li a:link {
 	margin: 12px 0 0 0;
 	padding: 3px 0 !important;
-	display: block;
+	display: inline-block;
 	font-weight: bold;
 }
 
 
 /* 
-	"Find or request" tab - local holdings
+	"Find or request" tab 
 */
 
-/* make holdings info more visible/legible */
+/* make holdings info more visible */
 ul.holdingInfo { background: #ffffcc; }
 
 ul.holdingInfo li.bold { 
@@ -114,7 +112,7 @@ ul.holdingInfo li.bold::after { content: ":  "; }
 	font-size: 1em !important;
 	margin: 3px 0 !important;
 }
-/*button hover */
+/* button hover */
 #TABLE_DATA_item_list td:last-of-type a:hover {
 	text-decoration: none !important !important;
 	background-color: #febe10 !important;
@@ -130,3 +128,6 @@ ul.holdingInfo li.bold::after { content: ":  "; }
 	color: #6d520b !important;
 	cursor: pointer !important; 
 }
+
+/* on request form, give radio buttons more room to breathe */
+.formView li input[type="checkbox"], .formView li input[type="radio"] { margin: auto 0.5em !important; }
