@@ -4,6 +4,10 @@ Authors: [Emily Owens](mailto:eaowens@vcu.edu) and [Erin White](mailto:erwhite@v
 
 [VCU's bookplates in Primo](http://search.library.vcu.edu/primo_library/libweb/action/dlSearch.do?institution=VCU&vid=VCU&search_scope=all_scope&dym=true&query=any,contains,libgift)
 
+ - [Part 1: Cataloging setup](#part-1-cataloging-setup)
+ - [Part 2: Primo backoffice setup](#part-2-primo-backoffice-setup)
+ - [Part 3: Primo display customizations](#part-3-primo-display-customizations)
+
 ## Part 1: Cataloging setup
 
 Our catalogers use the 599 field for gift notes: `$a` for the note display, and `$c` is "virtual bookplate." 
