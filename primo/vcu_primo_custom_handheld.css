@@ -1,10 +1,17 @@
-/*	
-	VCU LIBRARIES primo customizations for handheld
-	http://search.library.vcu.edu
-	atinker@vcu.edu
-	2014
-*/
-body { max-width: 500px; }
+/*---------------Mobile Specific Styles----------*/
+
+@media screen and (max-width:500px) {
+
+	body { max-width: 500px; }
+
+	.MyAccount_Loans_dueDate {display: block !important;}
+
+	.MyAccount_Loans_author {display: none !important;}
+
+	#exliWhiteContent {
+		position: absolute;
+		z-index: 10000 !important;
+	}
 
 	#EXLFacetsMobile, .EXLDateRangeText {display:none;}
 	#exlidSearchRibbon fieldset {width: 100% !important;}
@@ -75,6 +82,7 @@ body { max-width: 500px; }
 		padding: 0;
 	}
 
+	/*.EXLResultsSortBySelected, .EXLResultsSortByMenu {display: table;}*/
 
 	.EXLResultsHeader div.EXLResultsNumbers { 
 		clear: left;
@@ -183,3 +191,5 @@ body { max-width: 500px; }
 	.extra-results span{
 		display:none;
 	}
+
+}
