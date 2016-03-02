@@ -34,6 +34,12 @@ We've also documented [how to add and update custom CSS and Javascript](updating
 * [Purdue Libraries](http://purdue-primo-prod.hosted.exlibrisgroup.com/primo_library/libweb/action/search.do?vid=PURDUE)
 * If you're using these customizations, [let Erin White know](mailto:erwhite@vcu.edu) or submit a pull request to this readme.
 
+### Virtual bookplates
+
+We have implemented virtual bookplates:
+ - [How we implemented virtual bookplates](alma-primo-bookplates.md)
+ - [Examples of bookplates](http://search.library.vcu.edu/primo_library/libweb/action/dlSearch.do?institution=VCU&vid=VCU&search_scope=all_scope&dym=true&query=any,contains,libgift)
+
 ### Primo customizations: see also
 * [Primo topbar](https://gist.github.com/erinrwhite/3701830) - HTML and CSS to add a top banner to Primo screens
 	* [Demo](http://www.people.vcu.edu/~erwhite/code/primo-topbar.html)
