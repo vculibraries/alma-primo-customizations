@@ -2,7 +2,7 @@
 
 Authors: [Emily Owens](mailto:eaowens@vcu.edu) and [Erin White](mailto:erwhite@vcu.edu), VCU
 
-[VCU's bookplates in Primo](http://search.library.vcu.edu/primo_library/libweb/action/dlSearch.do?institution=VCU&vid=VCU&search_scope=all_scope&dym=true&query=any,contains,libgift)
+&raquo; View [VCU's bookplates in Primo](http://search.library.vcu.edu/primo_library/libweb/action/dlSearch.do?institution=VCU&vid=VCU&search_scope=all_scope&dym=true&query=any,contains,libgift)
 
  - [Part 1: Cataloging setup](#part-1-cataloging-setup)
  - [Part 2: Primo backoffice setup](#part-2-primo-backoffice-setup)
@@ -29,7 +29,7 @@ Here's an [example of a finished PNX record](http://goo.gl/M5anVG).
 `lds08` is `$a` wrapped in an HTML `<a href="#">` tag. Then we put this field in the third line of the brief display view. 
 
 ```
-<a href="#bookplates">In recognition of Dr. John S. Mahoney, Jr. for his leadership and service with the VCU Friends of the Library </a>
+<a href="#">In recognition of Dr. John S. Mahoney, Jr. for his leadership and service with the VCU Friends of the Library </a>
 ```
 
 That HTML tag is used trigger the javascript that makes the bookplates display.
@@ -54,7 +54,7 @@ Styling for the brief display ([example records](http://search.library.vcu.edu/p
 
 ![bookplate brief display](http://vculibraries.github.io/alma-primo-customizations/readme-images/bookplate-briefdisplay.png)
 
-CSS (found in [vcu_primo_custom.css](vcu_primo_custom.css))
+CSS (found in [vcu_primo_custom.css](primo/vcu_primo_custom.css))
 
 ```
 /* brief display */
@@ -77,7 +77,7 @@ For the lightboxed bookplate we are using some custom CSS and JS along with the 
 
 ![bookplate popup](http://vculibraries.github.io/alma-primo-customizations/readme-images/bookplate-popup.png)
 
-CSS (found in [vcu_primo_custom.css](vcu_primo_custom.css))
+CSS (found in [vcu_primo_custom.css](primo/vcu_primo_custom.css))
 
 ```
 /* actual bookplate popup */
@@ -101,7 +101,7 @@ CSS (found in [vcu_primo_custom.css](vcu_primo_custom.css))
 }
 ```
 
-And the Javascript to inject the code for the popup (found in [vcu_primo_custom.js](vcu_primo_custom.js)). Note that the Javascript for the [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/) is included at the very beginning of the Javascript file as well.
+And the Javascript to inject the code for the popup (found in [vcu_primo_custom.js](primo/vcu_primo_custom.js)). Note that the Javascript for the [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/) is included at the very beginning of the Javascript file as well.
 
 ```
   // bookplate popup
