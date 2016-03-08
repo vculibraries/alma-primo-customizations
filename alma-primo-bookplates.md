@@ -10,7 +10,7 @@ Authors: [Emily Owens](mailto:eaowens@vcu.edu) and [Erin White](mailto:erwhite@v
 
 ## Part 1: Cataloging setup
 
-Our catalogers use the 599 field for gift notes: `$a` for the note display, and `$c` is "virtual bookplate." 
+Our catalogers use the 599 field for gift notes: `$a` for the note display, and `$c` for the label "virtual bookplate." 
 
 Here is an example:
 
@@ -19,7 +19,7 @@ Here is an example:
 Library |c virtual bookplate |s standard |d 201505 |5 VRC
 ```
 ## Part 2: Primo backoffice setup
-In the Primo norm rules, we set up two norm rules for Display and one for Search. All should use the conditions `599 $a exists` and `599 $c = virtual bookplate`.
+In the Primo normalization rules, we set up two norm rules for Display and one for Search. All use the conditions `599 $a exists` and `599 $c = virtual bookplate`.
 
 Here's an [example of a finished PNX record](http://goo.gl/M5anVG).
 
@@ -37,7 +37,7 @@ That HTML tag is used trigger the javascript that makes the bookplates display.
 ![bookplate brief display](http://vculibraries.github.io/alma-primo-customizations/readme-images/bookplate-briefdisplay.png)
 
 ### Full display
-`lds09` is the same `$a` text without the HTML tag wrapper. We insert this in the full display view and map it to the label Donor/Honoree.
+`lds09` is the same `$a` text without the HTML tag wrapper. We insert this in the full display view and map it to the label Donor/Honoree in the "FrontEnd Display Fields" Code Table.
 
 ### Search configuration
 `lsr08` is the custom field for Search. We copied `599 $a` again so that the donor's name would be searchable and also created a little codeword ([LIBGIFT](http://search.library.vcu.edu/primo_library/libweb/action/dlSearch.do?institution=VCU&vid=VCU&search_scope=all_scope&dym=true&query=any,contains,libgift)) that librarians can use to find these quickly.
