@@ -120,6 +120,36 @@ $(document).ready(function(){
     }, 0 );
   });
 
+
+// 'Check Status' Illiad Link
+
+  // Create the link to inject
+  var illiadLink ='<a class="cta-button" href="https://www.library.vcu.edu/illiad/">Check Status</a>';
+
+  // add the link to the Requests list
+    $('#requestList tbody tr').each(function( i ) {
+      var requestA = $(this).find('#request_type');
+      var requestLoc = $(this).find('#pickup_location_name');
+      var requestTrim = requestA.text().trim();
+
+    if (requestTrim === 'ILL'){
+      requestLoc.html(illiadLink);
+    }
+
+  });
+
+  // add the link to the Loans list
+  $('#LoansTable tbody tr').each(function( i ) {
+      var loanA = $(this).find('.MyAccount_Loans_location');
+      var loanStatus = $(this).find('.MyAccount_Loans_renewal');
+      var loanTrim = loanA.text().trim();
+
+    if (loanTrim === 'Interlibrary Loan Borrowing Resource Sharing Requests'){
+      loanStatus.html(illiadLink);
+    }
+
+  });
+
   // Get floor number from call number
   var first = ["A", "B", "C", "D", "E"];
   var third = ["F", "G", "H", "I", "J", "K", "L", "M", "N"];

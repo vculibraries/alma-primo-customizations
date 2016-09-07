@@ -1180,6 +1180,20 @@ a.reserves-info {
 
 /*---------------My Account----------*/
 
+a.cta-button {
+  background: #004957;
+    border: none;
+    display: inline-block;
+    height: auto;
+    text-align: center;
+    text-decoration: none !important;
+    color: #FFF;
+    margin: 10px auto 10px 0;
+    padding: 0.5em 1.8em;
+    width: auto;
+    border-radius: 4px;
+}
+
 .EXLMyAccountMainContainer form input.submit {border-radius: 4px;}
 .EXLMyAccountFormContainer div.EXLMyAccountTips form select {
 	border-radius: 3px;
