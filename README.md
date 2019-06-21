@@ -1,4 +1,4 @@
-# VCU Libraries Search customizations
+# VCU Libraries Search customizations (classic UI)
 
 These are visual customizations for [VCU Libraries Search](http://search.library.vcu.edu/) which is running on Ex Libris' Alma and Primo platforms.
 
