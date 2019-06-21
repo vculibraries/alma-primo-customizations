@@ -37,7 +37,7 @@ We've also documented [how to add and update custom CSS and Javascript](updating
 ### Virtual bookplates
 
 We have implemented virtual bookplates:
- - [How we implemented virtual bookplates](alma-primo-bookplates.md)
+ - [How we implemented virtual bookplates](alma-primo-bookplates-classic-UI.md)
  - [Examples of bookplates](http://search.library.vcu.edu/primo_library/libweb/action/dlSearch.do?institution=VCU&vid=VCU&search_scope=all_scope&dym=true&query=any,contains,libgift)
 
 ### Primo customizations: see also
